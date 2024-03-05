@@ -1,0 +1,144 @@
+Version:
+  name: atech
+  ver: 1
+
+Data:
+  camera_info:
+    sensor_id:
+      offset: 0x0000
+      type: "hex"
+      size: 2
+    isp_id:
+      offset: 0x0002
+      type: "hex"
+      size: 2
+    fps:
+      offset: 0x0004
+      type: "dec"
+      size: 2
+    resolution_h:
+      offset: 0x0006
+      type: "dec"
+      size: 2
+    resolution_v:
+      offset: 0x0008
+      type: "dec"
+      size: 2
+    image_format:
+      offset: 0x000A
+      type: "dec"
+      size: 2
+    image_data_bits:
+      offset: 0x000C
+      type: "dec"
+      size: 2
+    serialize_id:
+      offset: 0x000E
+      type: "dec"
+      size: 2
+    serialize_bandwidth:
+      offset: 0x0010
+      type: "dec"
+      size: 2
+  serial_number:
+    year:
+      offset: 0x0020
+      type: "dec"
+      size: 2
+    month:
+      offset: 0x0022
+      type: "dec"
+      size: 2
+    day:
+      offset: 0x0024
+      type: "dec"
+      size: 2
+    serial_no:
+      offset: 0x0026
+      type: "string"
+      size: 6
+  production_info:
+    info:
+      offset: 0x0030
+      type: "string"
+      size: 30
+  lens_info:
+    lens_id:
+      offset: 0x0050
+      type: "dec"
+      size: 2
+    lens_fov_h:
+      offset: 0x0052
+      type: "dec"
+      size: 2
+    lens_fov_v:
+      offset: 0x0054
+      type: "dec"
+      size: 2
+    lens_f_no.:
+      offset: 0x0056
+      type: "float"
+      size: 4
+    focal_length:
+      offset: 0x005A
+      type: "float"
+      size: 4
+  calibration:
+    cal_model:
+      offset: 0x0060
+      type: "dec"
+      size: 2
+    focal_length__fx:
+      offset: 0x0062
+      type: "float"
+      size: 4
+    focal_length__fy:
+      offset: 0x0066
+      type: "float"
+      size: 4
+    principal_point__cx:
+      offset: 0x006A
+      type: "float"
+      size: 4
+    principal_point__cy:
+      offset: 0x006E
+      type: "float"
+      size: 4
+    radial_distortion__k1:
+      offset: 0x0072
+      type: "float"
+      size: 4
+    radial_distortion__k2:
+      offset: 0x0076
+      type: "float"
+      size: 4
+    radial_distortion__k3:
+      offset: 0x007A
+      type: "float"
+      size: 4
+    radial_distortion__k4:
+      offset: 0x007E
+      type: "float"
+      size: 4
+    radial_distortion__k5:
+      offset: 0x0082
+      type: "float"
+      size: 4
+    radial_distortion__k6:
+      offset: 0x0086
+      type: "float"
+      size: 4
+    tangential_distortion__p1:
+      offset: 0x008A
+      type: "float"
+      size: 4
+    tangential_distortion__p2:
+      offset: 0x008E
+      type: "float"
+      size: 4
+  checksum:
+    offset: 0x0100
+    type: "dec"
+    size: 2
+
+  

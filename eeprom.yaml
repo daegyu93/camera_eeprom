@@ -1,0 +1,43 @@
+Version:
+  name: atech
+  ver: 1
+
+Data:
+  camera_info:
+    sensor_id: '0x0001'
+    isp_id: '0x0001'
+    fps: 30
+    resolution_h: 1280
+    resolution_v: 720
+    image_format: 2
+    image_data_bits: 8
+    serialize_id: 1
+    serialize_bandwidth: 2
+  serial_number:
+    year: 2024
+    month: 2
+    day: 7
+    serial_no: 'test  '
+  production_info:
+    info: 'atech eeprom                  '
+  lens_info:
+    lens_id: 1
+    lens_fov_h: 120
+    lens_fov_v: 55
+    lens_f_no.: 2.0999999046325684
+    focal_length: 3.200000047683716
+  calibration:
+    cal_model: 1
+    focal_length__fx: 900.3400268554688
+    focal_length__fy: 837.0120849609375
+    principal_point__cx: 919.4879150390625
+    principal_point__cy: 522.186767578125
+    radial_distortion__k1: -0.28132888674736023
+    radial_distortion__k2: 0.05087989941239357
+    radial_distortion__k3: -0.0019305371679365635
+    radial_distortion__k4: 0.0
+    radial_distortion__k5: 0.0
+    radial_distortion__k6: 0.0
+    tangential_distortion__p1: -0.0008035982609726489
+    tangential_distortion__p2: 0.0023074764758348465
+  checksum: 7473
