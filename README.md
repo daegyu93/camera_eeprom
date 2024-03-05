@@ -53,3 +53,5 @@ optional arguments:
 1. 최초로 eeprom 을 read 하여 yaml 파일 하나를 만든다
 2. 그 yaml 파일을 열어 필요한 부분에 값을 수정하고 write 한다
 3. config 파일 내용을 기반으로 yaml 파일이 작성되고 eeprom 에 read/write 되니 특별한 상황이 아니면 config 파일은 건들지 않는다. 
+
+eeprom.yaml 파일을 참조용으로 하나 첨부 드립니다. 
