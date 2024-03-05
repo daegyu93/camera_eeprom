@@ -9,7 +9,7 @@ def main():
     parser.add_argument('-w', '--write', type=str, default=None, help='Path to the yaml file for write eeprom')
     parser.add_argument('-r', '--read', type=str, default=None, help='Path to the yaml file for read eeprom')
     parser.add_argument('-c', '--config', type=str, default='config.yaml', help='Path to the yaml file for config eeprom')
-    parser.add_argument('-p' , '--print_result', action='store_true', help='Print the result of the eeprom')
+    parser.add_argument('-p' , '--print_result', action='store_true', help='Print the result')
 
     args = parser.parse_args()
 
